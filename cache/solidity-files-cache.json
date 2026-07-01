@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\priya\\zkp-kyc\\contracts\\AgeVerifier.sol": {
+      "lastModificationDate": 1781256218739,
+      "contentHash": "ebc351482a8a8f2834dae30a1d519bcb",
+      "sourceName": "contracts/AgeVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Groth16Verifier"
+      ]
+    },
+    "C:\\Users\\priya\\zkp-kyc\\contracts\\PrivacyKYC.sol": {
+      "lastModificationDate": 1781339047364,
+      "contentHash": "dc3d87848a50eb47e9433a37214e057f",
+      "sourceName": "contracts/PrivacyKYC.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IAgeVerifier",
+        "IResidencyVerifier",
+        "PrivacyKYC"
+      ]
+    },
+    "C:\\Users\\priya\\zkp-kyc\\contracts\\ResidencyVerifier.sol": {
+      "lastModificationDate": 1781339010755,
+      "contentHash": "c5653b2624a4feec9e44d696f00fcc7b",
+      "sourceName": "contracts/ResidencyVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ResidencyGroth16Verifier"
+      ]
+    }
+  }
+}
