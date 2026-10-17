@@ -463,12 +463,15 @@ export default function ZKPKYCApp() {
       <div style={{ maxWidth: "620px", margin: "auto", padding: "40px 20px" }}>
 
         {/* Header */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }}>
           <div>
-            <h1 style={{ margin: 0, fontSize: "24px" }}>🔐 ZKP Age KYC</h1>
-            <p style={{ margin: 0, fontSize: "12px", color: "#8bb4ff" }}>Privacy-Preserving Age Verification on Ethereum</p>
+            <h1 style={{ margin: 0, fontSize: "22px" }}>🔐 ZKP Age KYC for Demo Trading</h1>
+            <p style={{ margin: "3px 0 0", fontSize: "12px", color: "#8bb4ff" }}>Privacy-Preserving Age Verification on Ethereum</p>
+            <p style={{ margin: "5px 0 0", fontSize: "11px", color: "#fcd34d" }}>
+              ⚠️ Disclaimer: For demo trading verification only. Personal data is never stored on-chain.
+            </p>
           </div>
-          <button onClick={connectWallet} style={{ background: "#1d284d", color: "white", border: "1px solid #2a3a6d", padding: "10px 16px", borderRadius: "8px", cursor: "pointer", fontSize: "13px" }}>
+          <button onClick={connectWallet} style={{ background: "#1d284d", color: "white", border: "1px solid #2a3a6d", padding: "10px 16px", borderRadius: "8px", cursor: "pointer", fontSize: "13px", whiteSpace: "nowrap" }}>
             {wallet ? `${wallet.slice(0, 6)}...${wallet.slice(-4)}` : "Connect Wallet"}
           </button>
         </div>
