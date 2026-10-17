@@ -192,6 +192,26 @@ function AgeProofFlow({ contract, wallet, kycDetails, onComplete }) {
           </div>
         )}
 
+        <div style={{ marginTop: "16px" }}>
+          <a
+            href="https://olymptrade.com/pages/trading/account/free-demo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              padding: "12px 24px",
+              background: "#22c55e",
+              color: "#ffffff",
+              borderRadius: "8px",
+              textDecoration: "none",
+              fontWeight: "bold",
+              fontSize: "14px"
+            }}
+          >
+            Demo Trading ↗
+          </a>
+        </div>
+
         <button
           style={{ ...btnOutline, maxWidth: "220px", margin: "20px auto 0", display: "block" }}
           onClick={() => setStep(0)}
